@@ -22,7 +22,6 @@ use yii\db\Connection;
 /* use yii\base\Module;  */
 use yii\web\AssetBundle;
 
-$_SESSION['social_utils_sesh']='MySocialUtilsSesh'; 
 
 use humhub\modules\social_utils; 
 

@@ -20,12 +20,6 @@ use yii\web\Request;
 use yii\db; 
 use yii\db\Query; 
 use yii\db\Command; 
-/*
-use humhub\modules\admin\permissions\ManageModules; 
-if ((!Yii::$app->user->can(ManageModules::class))||($_SESSION['social_utils_sesh']!='MySocialUtilsSesh')) {
-	return 'This is not the page you are looking for..'; 
-	}
-*/
 
 class MainController extends \humhub\modules\admin\components\Controller{
 
